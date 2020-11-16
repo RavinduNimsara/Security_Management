@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperPrint xmlns="http://jasperreports.sourceforge.net/jasperreports/print" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/print http://jasperreports.sourceforge.net/xsd/jasperprint.xsd" name="DatePayments" pageWidth="595" pageHeight="842" topMargin="20" leftMargin="20" bottomMargin="20" rightMargin="20" locale="en_US" timezone="Asia/Colombo">
+	<property name="net.sf.jasperreports.export.xml.start.page.index" value="0"/>
+	<property name="net.sf.jasperreports.export.xml.end.page.index" value="0"/>
+	<property name="net.sf.jasperreports.export.xml.page.count" value="1"/>
+	<origin band="background"/>
+	<origin band="title"/>
+	<origin band="pageHeader"/>
+	<origin band="columnHeader"/>
+	<origin band="detail"/>
+	<origin band="columnFooter"/>
+	<origin band="pageFooter"/>
+	<origin band="summary"/>
+	<page>
+		<rectangle radius="0">
+			<reportElement uuid="0b695027-bdaf-44f2-9ac8-7be3d47c1fc2" x="51" y="33" width="503" height="54" forecolor="#0000CC" origin="1" srcId="1" printId="1"/>
+		</rectangle>
+		<text verticalAlignment="Middle" textHeight="20.698242" lineSpacingFactor="1.1499023" leadingOffset="-3.5200195">
+			<reportElement uuid="ffe0b677-822c-4c89-82a4-decfcdd1de6b" x="119" y="48" width="119" height="26" origin="1" srcId="2" printId="1"/>
+			<font fontName="Arial" size="18" isBold="true"/>
+			<textContent><![CDATA[Payments Of]]></textContent>
+		</text>
+		<text verticalAlignment="Middle" textHeight="20.698242" lineSpacingFactor="1.1499023" leadingOffset="-3.5200195">
+			<reportElement uuid="70536a2c-0fe6-4586-87d9-e5553bd2a36c" x="363" y="48" width="22" height="26" origin="1" srcId="3" printId="1"/>
+			<font fontName="Arial" size="18" isBold="true"/>
+			<textContent><![CDATA[In]]></textContent>
+		</text>
+		<text verticalAlignment="Middle" textHeight="0.0">
+			<reportElement uuid="83ee5643-fff5-4a90-8620-2ff27e869956" x="397" y="50" width="100" height="24" forecolor="#CC0000" origin="1" srcId="4" printId="1"/>
+			<font fontName="Arial" size="16" isBold="true"/>
+			<textContent><![CDATA[]]></textContent>
+		</text>
+		<text verticalAlignment="Middle" textHeight="0.0">
+			<reportElement uuid="e733554d-2a1a-417c-b9e2-987da3509c6e" x="248" y="48" width="104" height="26" forecolor="#FF0000" origin="1" srcId="5" printId="1"/>
+			<font fontName="Arial" size="16" isBold="true"/>
+			<textContent><![CDATA[]]></textContent>
+		</text>
+		<rectangle radius="0">
+			<reportElement uuid="e48a756d-cf6a-4c1f-a13e-27deabbfa04e" x="120" y="174" width="85" height="20" origin="3" srcId="6" printId="1"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="13212778-f16d-459b-ac68-1c53d67b30ba" x="375" y="174" width="106" height="20" origin="3" srcId="7" printId="1"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="8da708bb-a0ac-4b0f-b946-4af6ef0e467a" x="481" y="174" width="85" height="20" origin="3" srcId="8" printId="1"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="e25e4491-9029-4dec-837d-3c0c49e90d1a" x="290" y="174" width="85" height="20" origin="3" srcId="9" printId="1"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="35955259-a9bb-4f8e-8b41-c7ca75a30ff6" x="205" y="174" width="85" height="20" origin="3" srcId="10" printId="1"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="49bd3cd0-f618-443c-8013-e92011d0569e" x="35" y="174" width="85" height="20" origin="3" srcId="11" printId="1"/>
+		</rectangle>
+		<text textAlignment="Center" verticalAlignment="Middle" textHeight="17.248535" lineSpacingFactor="1.1499023" leadingOffset="-2.9333496">
+			<reportElement uuid="4aa248a2-c219-4d8e-9eca-7ddfc2f27189" x="35" y="174" width="84" height="20" forecolor="#CC0000" origin="3" srcId="12" printId="1"/>
+			<font fontName="Arial" size="15" isBold="true"/>
+			<textContent><![CDATA[PID]]></textContent>
+		</text>
+		<text textAlignment="Center" verticalAlignment="Middle" textHeight="17.248535" lineSpacingFactor="1.1499023" leadingOffset="-2.9333496">
+			<reportElement uuid="fa4a7299-39d6-41c6-83f2-dda26a6a6954" x="121" y="174" width="84" height="20" forecolor="#CC0000" origin="3" srcId="13" printId="1"/>
+			<font fontName="Arial" size="15" isBold="true"/>
+			<textContent><![CDATA[RID]]></textContent>
+		</text>
+		<text textAlignment="Center" verticalAlignment="Middle" textHeight="17.248535" lineSpacingFactor="1.1499023" leadingOffset="-2.9333496">
+			<reportElement uuid="fb57f14e-3cff-44f8-83fb-27513f2c6cb2" x="207" y="174" width="83" height="20" forecolor="#CC0000" origin="3" srcId="14" printId="1"/>
+			<font fontName="Arial" size="15" isBold="true"/>
+			<textContent><![CDATA[Date]]></textContent>
+		</text>
+		<text textAlignment="Center" verticalAlignment="Middle" textHeight="17.248535" lineSpacingFactor="1.1499023" leadingOffset="-2.9333496">
+			<reportElement uuid="afc6ad52-a7d4-40a0-b6e0-b9373b3c0562" x="291" y="174" width="84" height="20" forecolor="#CC0000" origin="3" srcId="15" printId="1"/>
+			<font fontName="Arial" size="15" isBold="true"/>
+			<textContent><![CDATA[AmountUS]]></textContent>
+		</text>
+		<text textAlignment="Center" verticalAlignment="Middle" textHeight="17.248535" lineSpacingFactor="1.1499023" leadingOffset="-2.9333496">
+			<reportElement uuid="c48cd075-ff22-4067-9c77-30d801ecd845" x="481" y="174" width="85" height="20" forecolor="#CC0000" origin="3" srcId="16" printId="1"/>
+			<font fontName="Arial" size="15" isBold="true"/>
+			<textContent><![CDATA[Rate]]></textContent>
+		</text>
+		<text textAlignment="Center" verticalAlignment="Middle" textHeight="17.248535" lineSpacingFactor="1.1499023" leadingOffset="-2.9333496">
+			<reportElement uuid="f0aca079-093f-4a2f-8916-a7bb8cf70ef7" x="375" y="174" width="106" height="20" forecolor="#CC0000" origin="3" srcId="17" printId="1"/>
+			<font fontName="Arial" size="15" isBold="true"/>
+			<textContent><![CDATA[AmountRs]]></textContent>
+		</text>
+		<rectangle radius="0">
+			<reportElement uuid="14694961-1c92-42a9-8239-388208598baf" x="35" y="196" width="85" height="20" origin="4" srcId="18" printId="1"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="9d78f2aa-458b-45ea-b9a9-f9ffe0486ad8" x="120" y="196" width="85" height="20" origin="4" srcId="19" printId="1"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="7c6fad81-5e15-46e0-90b8-bbf714b74f88" x="205" y="196" width="85" height="20" origin="4" srcId="20" printId="1"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="8b255d00-f45a-493c-90f9-e1c51ac45594" x="290" y="196" width="85" height="20" origin="4" srcId="21" printId="1"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="f5defb4a-05ef-4682-91c6-dea494d132e9" x="375" y="196" width="106" height="20" origin="4" srcId="22" printId="1"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="6e39318f-89e6-42e1-b575-bb680324727e" x="481" y="196" width="85" height="20" origin="4" srcId="23" printId="1"/>
+		</rectangle>
+		<text textAlignment="Center" verticalAlignment="Middle" textHeight="11.499023" lineSpacingFactor="1.1499023" leadingOffset="-1.9555664">
+			<reportElement uuid="461ba719-21eb-4529-bf3c-a0d5de6f5906" x="35" y="196" width="85" height="20" origin="4" srcId="24" printId="1"/>
+			<font fontName="Arial" isBold="true"/>
+			<textContent><![CDATA[null]]></textContent>
+		</text>
+		<text textAlignment="Center" verticalAlignment="Middle" textHeight="11.499023" lineSpacingFactor="1.1499023" leadingOffset="-1.9555664">
+			<reportElement uuid="1360ca17-f6cb-4d06-88bf-a08be7707693" x="121" y="196" width="84" height="20" origin="4" srcId="25" printId="1"/>
+			<font fontName="Arial" isBold="true"/>
+			<textContent><![CDATA[null]]></textContent>
+		</text>
+		<text textAlignment="Center" verticalAlignment="Middle" textHeight="11.499023" lineSpacingFactor="1.1499023" leadingOffset="-1.9555664">
+			<reportElement uuid="4b1af032-52e7-4510-b267-812ebfe28765" x="207" y="196" width="83" height="20" origin="4" srcId="26" printId="1"/>
+			<font fontName="Arial" isBold="true"/>
+			<textContent><![CDATA[null]]></textContent>
+		</text>
+		<text textAlignment="Center" verticalAlignment="Middle" textHeight="11.499023" lineSpacingFactor="1.1499023" leadingOffset="-1.9555664">
+			<reportElement uuid="a5aa3284-c13f-409b-a806-f3843ccbfe70" x="291" y="196" width="84" height="20" origin="4" srcId="27" printId="1"/>
+			<font fontName="Arial" isBold="true"/>
+			<textContent><![CDATA[null]]></textContent>
+		</text>
+		<text textAlignment="Center" verticalAlignment="Middle" textHeight="11.499023" lineSpacingFactor="1.1499023" leadingOffset="-1.9555664">
+			<reportElement uuid="d79939ff-0ba4-413d-b1d1-d6ef1d048dcb" x="481" y="196" width="85" height="20" origin="4" srcId="28" printId="1"/>
+			<font fontName="Arial" isBold="true"/>
+			<textContent><![CDATA[null]]></textContent>
+		</text>
+		<text textAlignment="Center" verticalAlignment="Middle" textHeight="11.499023" lineSpacingFactor="1.1499023" leadingOffset="-1.9555664">
+			<reportElement uuid="338990ef-52cd-4732-b9a0-5e131b0f5a8e" x="375" y="196" width="106" height="20" origin="4" srcId="29" printId="1"/>
+			<font fontName="Arial" isBold="true"/>
+			<textContent><![CDATA[null]]></textContent>
+		</text>
+		<text textHeight="17.248535" lineSpacingFactor="1.1499023" leadingOffset="-2.9333496">
+			<reportElement uuid="21523865-b474-428c-9a97-cdc247b42824" x="207" y="745" width="84" height="20" forecolor="#0000CC" origin="5" srcId="30" printId="1"/>
+			<font fontName="Arial" size="15" isBold="true"/>
+			<textContent><![CDATA[Total]]></textContent>
+		</text>
+		<text textAlignment="Right" textHeight="0.0">
+			<reportElement uuid="61e478f6-ccc9-4580-9946-26fc7ded1cf2" x="291" y="745" width="84" height="20" origin="5" srcId="31" printId="1"/>
+			<font size="14" isBold="true"/>
+			<textContent><![CDATA[]]></textContent>
+		</text>
+		<text textAlignment="Right" textHeight="0.0">
+			<reportElement uuid="13ede48c-1001-4b62-be26-8bc35d1b7c46" x="378" y="745" width="103" height="20" origin="5" srcId="32" printId="1"/>
+			<font size="14" isBold="true"/>
+			<textContent><![CDATA[]]></textContent>
+		</text>
+	</page>
+</jasperPrint>
